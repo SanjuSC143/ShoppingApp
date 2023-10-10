@@ -7,13 +7,20 @@
         </div>
         <div class="input-box">
             <input type="password" placeholder="Password" required>
-            <i class='bx bxs-lock-alt' ></i>
+            <i class='bx bxs-lock-alt'></i>
         </div>
         <div class="remember-forgot">
             <label><input type="checkbox">Remember me</label>&nbsp;
             <a href="#">Forgot password</a>
         </div>
-        <button type="submit" class="btn">Login</button>
-        
+        <button type="submit" class="btn">Login</button><br><br>
+        <asl-google-signin-button type='icon' size='medium' *ngIf="!user" routerLink="dashboard"></asl-google-signin-button>
+        <div *ngIf="user">
+            <img src="{{ user.photoUrl }}" referrerpolicy="no-referrer">
+            <div>
+                <h4>{{ user.name }}</h4>
+                <p>{{ user.email }}</p>
+            </div>
+        </div>
     </form>
 </div>
