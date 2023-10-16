@@ -8,18 +8,23 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    DashboardComponent
+    DashboardComponent,
+   
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     SocialLoginModule,
-    GoogleSigninButtonModule 
+    GoogleSigninButtonModule,
+    FormsModule 
   ],
   providers: [
     {
