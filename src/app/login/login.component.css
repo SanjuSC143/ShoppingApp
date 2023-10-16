@@ -1,3 +1,12 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(85, 84, 86);
+    background-size:cover;
+    background-position: center;
+}
 .wrapper{
     width: 420px;
     background: transparent;
@@ -8,6 +17,7 @@
     position: relative;
     padding: 30px 40px;
     border-radius: 10px;
+    
 }
 .wrapper h1{
     font-size: 36px;
@@ -73,3 +83,6 @@
     color: #333;
     font-weight: 600;
 }
+
+
+
