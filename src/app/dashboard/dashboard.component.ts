@@ -7,21 +7,5 @@ import { Router } from "@angular/router";
   styleUrls: ["./dashboard.component.css"],
 })
 export class DashboardComponent  {
-  // user:any;
-  // loggedIn:any;
-
-  // constructor(private authService: SocialAuthService, private _router:Router) { }
-
-  // ngOnInit() {
-  //   this.authService.authState.subscribe((user) => {
-  //     this.user = user;
-  //     this.loggedIn = (user != null);
-  //   });
-  // }
-  // signOut(): void {
-  //   this.authService.signOut();
-  //   localStorage.removeItem(this.user);
-  //   this._router.navigate(['']);
-  // }
   sideNavStatus:boolean=false;
 }

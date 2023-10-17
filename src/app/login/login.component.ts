@@ -11,7 +11,6 @@ export class LoginComponent implements OnInit{
   user:any;
   constructor(private authService: SocialAuthService) { }
 
-  ngOnInit() {
-    
-  }
+  ngOnInit() {} 
+  
 }

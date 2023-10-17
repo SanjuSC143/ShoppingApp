@@ -14,7 +14,6 @@ export class HeaderComponent implements OnInit{
   loggedIn:any;
 
   constructor(private authService: SocialAuthService, private _router:Router) { }
-
   ngOnInit() {
     this.authService.authState.subscribe((user) => {
       this.user = user;

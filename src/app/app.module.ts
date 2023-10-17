@@ -13,8 +13,6 @@ import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
 
-
-
 @NgModule({
   declarations: [
     AppComponent,
