@@ -9,6 +9,10 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { FormsModule } from '@angular/forms';
+import { HeaderComponent } from './header/header.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { SideNavComponent } from './side-nav/side-nav.component';
+
 
 
 @NgModule({
@@ -16,6 +20,10 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     LoginComponent,
     DashboardComponent,
+    HeaderComponent,
+    NavbarComponent,
+    SideNavComponent,
+   
    
     
   ],

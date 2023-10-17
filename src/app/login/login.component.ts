@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit{
 
-
+  user:any;
   constructor(private authService: SocialAuthService) { }
 
   ngOnInit() {
